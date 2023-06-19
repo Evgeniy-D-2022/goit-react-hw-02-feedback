@@ -17,25 +17,9 @@
 
 .Feedback__btn {
     font-size: 18px;
+    text-transform: capitalize;
     font-weight: 600;
     padding: 10px;
     border-radius: 8px;
 }
 
-.Statistics {
-    padding: 40px;
-}
-
-.Statistics__title {
-    margin-bottom: 30px;
-}
-
-.Statistics__item {
-    margin-bottom: 10px;
-}
-
-.Statistics__text {
-    font-size: 24px;
-    font-weight: 600;
-
-}
