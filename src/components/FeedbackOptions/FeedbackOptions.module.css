@@ -1,12 +1,3 @@
-.Feedback {
-    padding: 40px;
-   
-}
-
-.Feedback__title {
-    margin-bottom: 30px;
-}
-
 .Feedback__list {
     display: flex;
 }
@@ -22,4 +13,3 @@
     padding: 10px;
     border-radius: 8px;
 }
-

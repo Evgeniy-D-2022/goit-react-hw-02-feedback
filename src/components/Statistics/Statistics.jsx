@@ -6,7 +6,7 @@ const Statistics = ({
     neutral,
     bad,
     total,
-    positiveFeedbackPercentage,
+    positivePercentage,
 }) => (
     <>
     <ul className={css.Statistics__list}>
@@ -19,7 +19,7 @@ const Statistics = ({
         <li className={css.Statistics__item}>
           <p className={css.Statistics__text}>Total: {total}</p></li>
         <li className={css.Statistics__item}>
-          <p className={css.Statistics__text}>Positive feedback: {positiveFeedbackPercentage}%</p></li>
+          <p className={css.Statistics__text}>Positive feedback: {positivePercentage}%</p></li>
 
       </ul>
     </>
@@ -32,5 +32,5 @@ Statistics.propTypes = {
     neutral: PropTypes.number.isRequired,
     bad: PropTypes.number.isRequired,
     total: PropTypes.number.isRequired,
-    positiveFeedbackPercentage: PropTypes.number.isRequired,
+    positivePercentage: PropTypes.number.isRequired,
   };
